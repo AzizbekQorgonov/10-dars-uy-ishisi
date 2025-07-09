@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.tablo {
+    background-color: #FFFFFF;
+}
+
+
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#hero {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.main-1 {
+    background-color: #FFFFFF;
+    width: 496px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(175, 168, 168);
+    margin-bottom: 58px;
+}
+
+.main-2 {
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    width: 566px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(175, 168, 168);
+    margin-bottom: 58px;
+}
+
+.title {
+    font-size: 29px;
+    margin-top: 30px;
+}
+
+.main-logo {
+    margin-top: 30px;
+}
+
+.subtitle {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.main-a {
+    display: inline-block;
+    color: #01BAB3;
+    text-decoration-line: underline;
+}
+
+#hero-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.name {
+    width: 200px;
+    height: 48px;
+    border: 6px;
+    border-radius: 6px;
+    border-color: #D9D9D9;
+    background-color: #FBFBFB;
+}
+
+.name-1 {
+    margin-left: 43px;
+    margin-top: 30px;
+}
+
+.name-2 {
+    margin-top: 30px;
+}
+
+.date {
+
+    margin-top: 5px;
+}
+
+.date-1 {
+    width: 416px;
+    height: 48px;
+    border: 6px;
+    border-color: #D9D9D9;
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    margin-left: 43px;
+}
+
+.imput-name {
+    margin-left: 43px;
+}
+
+.gender-1 {
+    margin-left: 43px;
+    width: 200px;
+    height: 48px;
+    border: 6px;
+    border-color: #D9D9D9;
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.gender-2 {
+    width: 200px;
+    height: 48px;
+    border: 6px;
+    border-color: #D9D9D9;
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.gender {
+    gap: 10px;
+    display: flex;
+}
+
+.radio-name {
+    margin-left: 43px;
+    margin-top: 20px;
+}
+
+.skype-input {
+    width: 416px;
+    height: 48px;
+    border: 6px;
+    border-color: #D9D9D9;
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    padding-top: 15px;
+    margin-left: 43px;
+}
+
+.skype-name {
+    margin-left: 43px;
+}
+
+.skype {
+    margin-top: 20px;
+}
+
+.continue {
+    background-color: #01BAB3;
+    width: 416px;
+    height: 48px;
+    margin-left: 43px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 48px;
+    margin-top: 20px;
+}
+
+.button-a {
+    color: white;
+    width: 416;
+    font-size: 18px;
+    height: 48;
+}
+
+.email {
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+.email-input {
+    width: 416px;
+    height: 48px;
+    border-color: #D9D9D9;
+    border: 6px;
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    margin-top: 5px;
+}
+
+.tel {
+    margin-top: 5px;
+    margin-left: 43px;
+    display: flex;
+    width: 416px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+.tel-button {
+    background-color: #FBFBFB;
+    font-size: 16px;
+    border-color: #D9D9D9;
+    border: 6px;
+    border-radius: 6px;
+}
+
+.tel-input {
+    outline: none;
+    border-color: #D9D9D9;
+    border-left: 2px solid #D9D9D9;
+    border: 6px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #FBFBFB;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.tel-name {
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+.country-list {
+    width: 200px;
+    height: 48px;
+    background-color: #FBFBFB;
+    border-radius: 6px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border-color: #D9D9D9;
+}
+
+.country-card {
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+.city-card {
+    margin-top: 30px;
+}
+
+.city-input {
+    width: 200px;
+    height: 48px;
+    background-color: #FBFBFB;
+    border-radius: 6px;
+    margin-top: 5px;
+    border-color: #D9D9D9;
+    padding-left: 5px;
+    border: 6px;
+}
+
+#hero-8 {
+    display: flex;
+    gap: 10px;
+}
+
+.password-card {
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+.password-input {
+    width: 416px;
+    height: 48px;
+    background-color: #FBFBFB;
+    border: 6px;
+    border-radius: 6px;
+    border-color: #D9D9D9;
+    margin-top: 5px;
+    padding-left: 5px;
+
+}
+
+.continue-3 {
+    background-color: #01BAB3;
+    width: 416px;
+    height: 48px;
+    margin-left: 43px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 48px;
+    margin-top: 68px;
+}
